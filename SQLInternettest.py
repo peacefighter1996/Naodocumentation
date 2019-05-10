@@ -38,12 +38,12 @@ class SQLConnector():
 		"""SQLclass Main program to send the needed data.
 	
 		cnx =    mysql.connector.connect(user='Naobotuser',
-		                          		   password='Naobot1',
-		                                  host='83.128.154.70',
+		                          		   password='passphrase',
+		                                  host='DB',
 		                                  database='nao_progress')"""
         cnx =    mysql.connector.connect(user='Naobotuser',
-                              password='Naobot1',
-                              host='83.128.154.70',
+                              password='passphrase',
+                              host='DB',
                               database='nao_progress')
         cursor = cnx.cursor()
         
